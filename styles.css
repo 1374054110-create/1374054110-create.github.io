@@ -408,13 +408,13 @@ h2 { font-family: var(--serif); font-size: clamp(2.7rem, 5.5vw, 4.6rem); font-we
 .research-lede { color: #3f3f3a; font-family: var(--serif); font-size: 20px !important; line-height: 1.75 !important; }
 .research-entry { margin-top: 46px; }
 .research-entry h3 { color: #343432; font-family: var(--serif); font-size: 23px; font-weight: 600; line-height: 1.4; margin: 0 0 18px; }
-.research-entry-header { align-items: center; display: grid; gap: 14px; grid-template-columns: 54px minmax(0, 1fr); margin-bottom: 18px; }
+.research-entry-header { align-items: center; display: flex; gap: 14px; justify-content: flex-start; margin-bottom: 18px; width: 100%; }
+.research-entry-header > div { min-width: 0; }
 .research-entry-header h3 { margin: 0; }
 .research-entry-header h3 a { align-items: center; display: inline-flex; gap: 7px; }
 .research-entry-header h3 a:hover { color: var(--coral); }
 .research-entry-header h3 svg { height: 14px; width: 14px; }
 .research-entry-role { color: #85857f; font: 11px/1.5 var(--mono); margin: 4px 0 0 !important; text-transform: uppercase; }
-.research-entry-image { display: block; height: 320px; margin-top: 24px; width: 100%; }
 .research-entry p + p, .research-closing p + p { margin-top: 20px; }
 .research-person {
   color: #5d7f9f;
@@ -484,9 +484,8 @@ h2 { font-family: var(--serif); font-size: clamp(2.7rem, 5.5vw, 4.6rem); font-we
   .company-gallery { margin-top: 40px; }
   .company-image { height: 210px; }
   .research-prose { font-size: 17px; line-height: 1.78; }
-  .research-entry-header { align-items: start; }
+  .research-entry-header { align-items: center; }
   .research-entry-header h3 { font-size: 21px; }
-  .research-entry-image { height: 220px; margin-top: 20px; }
   .notes-section { gap: 46px; padding: 64px 24px; }
   .contact-section { padding: 64px 24px; }
   .contact-inner { gap: 52px; }
