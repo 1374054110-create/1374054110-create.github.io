@@ -498,10 +498,30 @@ h2 { font-family: var(--serif); font-size: clamp(2.7rem, 5.5vw, 4.6rem); font-we
 .personal-copy p:last-child { margin-bottom: 0; }
 .personal-note { border-left: 2px solid #dcdcd6; color: #45453f; padding-left: 18px; }
 
+.music-section {
+  align-items: center;
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 64px;
+  grid-template-columns: minmax(220px, .72fr) minmax(0, 1.28fr);
+  padding-bottom: 72px;
+  padding-top: 72px;
+}
+.music-copy h2 { margin-top: 10px; }
+.music-artist { color: #5d7f9f; font: 12px/1.6 var(--mono); margin: 14px 0 0; }
+.music-note { color: #686863; font-size: 15px; line-height: 1.8; margin: 22px 0 0; max-width: 360px; }
+.music-link { align-items: center; border-bottom: 1px solid var(--line); display: inline-flex; font: 11px var(--mono); gap: 7px; margin-top: 26px; padding-bottom: 5px; }
+.music-link:hover { border-color: var(--ink); }
+.music-link svg { height: 13px; width: 13px; }
+.music-video { aspect-ratio: 16 / 9; background: #111; overflow: hidden; width: 100%; }
+.music-video iframe { border: 0; display: block; height: 100%; width: 100%; }
+
 @media (max-width: 640px) {
   .personal-section { display: block; }
   .personal-heading { margin-bottom: 32px; }
   .personal-copy { font-size: 15px; line-height: 1.95; }
+  .music-section { display: block; }
+  .music-video { margin-top: 34px; }
 }
 
 /* Typography follows the reference page: 40px page title and 32px section titles. */
