@@ -513,7 +513,7 @@ h2 { font-family: var(--serif); font-size: clamp(2.7rem, 5.5vw, 4.6rem); font-we
 .music-link:hover { border-color: var(--ink); }
 .music-link svg { height: 13px; width: 13px; }
 .music-player { overflow: hidden; width: 100%; }
-.music-player iframe { border: 0; display: block; height: 152px; width: 100%; }
+.music-player iframe { border: 0; display: block; height: 86px; width: 100%; }
 
 @media (max-width: 640px) {
   .personal-section { display: block; }
