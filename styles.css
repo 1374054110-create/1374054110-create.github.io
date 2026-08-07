@@ -570,7 +570,7 @@ h2 {
 .hero-personal-visual .personal-visual-label { top: 32px; }
 .hero-personal-visual .personal-visual-circle strong { font-size: 28px; margin: 21px 0 18px; }
 .hero-personal-visual .personal-visual-foot { bottom: 32px; }
-.hero-personal-photo { aspect-ratio: 3 / 4; display: block; object-fit: cover; object-position: center center; width: 100%; }
+.hero-personal-photo { aspect-ratio: 1; border-radius: 50%; display: block; object-fit: cover; object-position: 48% 45%; width: 100%; }
 .section-pad { padding-bottom: 72px; padding-top: 72px; }
 .section-heading { display: block; margin-bottom: 32px; }
 .section-intro { margin: 14px 0 0; max-width: 620px; }
