@@ -499,19 +499,11 @@ h2 { font-family: var(--serif); font-size: clamp(2.7rem, 5.5vw, 4.6rem); font-we
 .personal-note { border-left: 2px solid #dcdcd6; color: #45453f; padding-left: 18px; }
 
 .music-section {
-  align-items: center;
   border-bottom: 1px solid var(--line);
-  display: grid;
-  gap: 40px;
-  grid-template-columns: minmax(180px, .45fr) minmax(0, 1.55fr);
+  display: block;
   padding-bottom: 36px;
   padding-top: 36px;
 }
-.music-copy h2 { margin-top: 10px; }
-.music-artist { color: #5d7f9f; font: 12px/1.6 var(--mono); margin: 14px 0 0; }
-.music-link { align-items: center; border-bottom: 1px solid var(--line); display: inline-flex; font: 11px var(--mono); gap: 7px; margin-top: 18px; padding-bottom: 5px; }
-.music-link:hover { border-color: var(--ink); }
-.music-link svg { height: 13px; width: 13px; }
 .music-player { overflow: hidden; width: 100%; }
 .music-player iframe { border: 0; display: block; height: 86px; width: 100%; }
 
@@ -519,8 +511,6 @@ h2 { font-family: var(--serif); font-size: clamp(2.7rem, 5.5vw, 4.6rem); font-we
   .personal-section { display: block; }
   .personal-heading { margin-bottom: 32px; }
   .personal-copy { font-size: 15px; line-height: 1.95; }
-  .music-section { display: block; }
-  .music-player { margin-top: 28px; }
 }
 
 /* Typography follows the reference page: 40px page title and 32px section titles. */
