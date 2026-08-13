@@ -580,10 +580,16 @@ h2 {
 .personal-section {
   align-items: start;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 860px;
   padding-bottom: 72px;
   padding-top: 72px;
+  text-align: center;
 }
-.personal-intro-content { min-width: 0; }
+.personal-intro-content { margin: 0 auto; max-width: 720px; min-width: 0; }
+.personal-heading .eyebrow { justify-content: center; }
+.personal-copy { margin-left: auto; margin-right: auto; text-align: left; }
 .personal-title-accent { color: #b96a3a; }
 .personal-facts { margin-top: 28px; }
 .personal-facts p { font-family: var(--serif); font-size: 17px; font-weight: 600; line-height: 1.45; margin: 0 0 8px; }
