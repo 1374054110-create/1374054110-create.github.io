@@ -604,17 +604,19 @@ h2 {
 .personal-note { border-left: 0; padding-left: 0; }
 .summary-section {
   border-top: 1px solid var(--line);
-  display: grid;
-  gap: 72px;
-  grid-template-columns: minmax(180px, .72fr) minmax(0, 1.28fr);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 860px;
   padding-bottom: 88px;
   padding-top: 88px;
+  text-align: center;
 }
-.summary-heading h2 { margin-bottom: 0; }
-.summary-title-accent { color: #6d987f; }
-.summary-copy { max-width: 670px; }
+.summary-heading { margin-bottom: 42px; }
+.summary-heading .eyebrow { justify-content: center; }
+.summary-heading h2 { font-size: 42px; margin-bottom: 0; }
+.summary-copy { margin: 0 auto; max-width: 720px; text-align: left; }
 .summary-copy p { color: #555550; font-family: var(--serif); font-size: 18px; line-height: 1.95; margin: 0 0 24px; }
-.summary-copy p:first-child::first-letter { color: #b4557f; font-size: 2.25em; font-weight: 600; line-height: .8; }
 .summary-copy p:last-child { margin-bottom: 0; }
 .personal-visual { align-self: start; justify-self: stretch; padding-top: 18px; }
 .personal-visual-circle {
@@ -686,8 +688,9 @@ h2 {
   .hero-intro-line { font-size: 18px; margin-top: 24px; }
   .hero-story, .hero-life { font-size: 15px; }
   h2 { font-size: 32px; }
-  .summary-section { display: block; padding-bottom: 64px; padding-top: 64px; }
+  .summary-section { padding-bottom: 64px; padding-top: 64px; }
   .summary-heading { margin-bottom: 30px; }
+  .summary-heading h2 { font-size: 32px; }
   .summary-copy p { font-size: 16px; line-height: 1.9; }
   .hero { padding-bottom: 54px; padding-top: 62px; }
   .hero-personal-visual { float: none; margin: 0 auto 32px; max-width: 250px; width: 100%; }
