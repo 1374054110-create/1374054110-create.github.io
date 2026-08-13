@@ -576,38 +576,7 @@ h2 {
 .section-heading { display: block; margin-bottom: 32px; }
 .section-intro { margin: 14px 0 0; max-width: 620px; }
 .experience-item { grid-template-columns: 1fr; }
-.personal-heading { margin-bottom: 28px; }
-.personal-section {
-  align-items: start;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 860px;
-  padding-bottom: 72px;
-  padding-top: 72px;
-  text-align: center;
-}
-.personal-intro-content { margin: 0 auto; max-width: 720px; min-width: 0; }
-.personal-heading .eyebrow { justify-content: center; }
-.personal-copy { margin-left: auto; margin-right: auto; text-align: left; }
-.personal-title-accent { color: #b96a3a; }
-.personal-facts { margin-top: 28px; }
-.personal-facts p { font-family: var(--serif); font-size: 17px; font-weight: 600; line-height: 1.45; margin: 0 0 8px; }
-.personal-facts p:last-child { margin-bottom: 0; }
-.personal-fact-blue { color: #5d7f9f; margin-right: 6px; }
-.personal-fact-orange { color: #d68738; margin-right: 6px; }
-.personal-lede {
-  color: #343432;
-  font-family: var(--serif);
-  font-size: 21px;
-  line-height: 1.62;
-}
-.personal-lede strong { color: #b4557f; font-weight: 600; }
-.personal-detail { color: #595952; }
-.personal-word-blue { color: #5d7f9f; }
 .personal-word-orange { color: #b96a3a; }
-.personal-life { color: #6d987f; }
-.personal-note { border-left: 0; padding-left: 0; }
 .summary-section {
   border-top: 1px solid var(--line);
   display: block;
