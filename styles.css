@@ -340,6 +340,49 @@ h2 { font-size: 5.3rem; font-weight: 500; letter-spacing: 0; line-height: .92; m
   .site-footer { align-items: start; flex-direction: column; gap: 12px; padding: 21px 6vw; }
 }
 
+/* Final editorial pass: keep the first viewport focused on identity and research. */
+.hero {
+  max-width: 1080px;
+  padding-bottom: 78px;
+  padding-top: 78px;
+}
+.hero-copy { max-width: 900px; }
+.hero-role-line { margin-top: 24px; }
+.hero-summary {
+  color: #4f4f49;
+  font-family: var(--serif);
+  font-size: 22px;
+  line-height: 1.6;
+  margin: 22px 0 0;
+  max-width: 760px;
+}
+.hero-actions { margin-top: 30px; }
+.hero-meta { margin-top: 38px; }
+.summary-section { max-width: 900px; }
+.research-entry { scroll-margin-top: 28px; }
+.music-section {
+  max-width: 900px;
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+.music-heading {
+  align-items: baseline;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.music-heading .eyebrow { margin: 0; }
+.music-heading > span { color: #85857f; font: 11px var(--mono); }
+.music-player { background: #f7f7f5; }
+
+@media (max-width: 640px) {
+  .hero { padding-bottom: 58px; padding-top: 58px; }
+  .hero-summary { font-size: 19px; line-height: 1.65; }
+  .hero-meta { display: grid; gap: 18px; grid-template-columns: 1fr; }
+  .music-section { padding-bottom: 34px; padding-top: 34px; }
+}
+
 /* Minimal notebook skin: content stays the same, while the page reads like a personal archive. */
 :root {
   --ink: #242424;
@@ -591,7 +634,6 @@ h2 {
 .summary-heading .eyebrow { justify-content: flex-start; }
 .summary-heading h2 { font-size: 38px; margin-bottom: 0; }
 .summary-copy { margin: 0; max-width: 900px; text-align: left; }
-.legacy-summary-copy { display: none; }
 .summary-copy p { color: #555550; font-family: var(--serif); font-size: 17px; line-height: 1.82; margin: 0 0 18px; }
 .summary-copy p:last-child { margin-bottom: 0; }
 .personal-visual { align-self: start; justify-self: stretch; padding-top: 18px; }
