@@ -591,6 +591,7 @@ h2 {
 .summary-heading .eyebrow { justify-content: center; }
 .summary-heading h2 { font-size: 42px; margin-bottom: 0; }
 .summary-copy { margin: 0 auto; max-width: 720px; text-align: left; }
+.legacy-summary-copy { display: none; }
 .summary-copy p { color: #555550; font-family: var(--serif); font-size: 18px; line-height: 1.95; margin: 0 0 24px; }
 .summary-copy p:last-child { margin-bottom: 0; }
 .personal-visual { align-self: start; justify-self: stretch; padding-top: 18px; }
